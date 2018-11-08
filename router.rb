@@ -5,6 +5,8 @@ class Router
         HomePage.new()
       when "/book"
         BooksPage.new()
+      when "/counter"
+        CounterPage.new()
       else
         HomePage.new()
     end
