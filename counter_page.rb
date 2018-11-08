@@ -11,6 +11,9 @@ class CounterPage < Page
           <div>
             <th>Counter Page</th>
           </div>
+          <div>
+            Page Refresh Count: #{$global_counter}
+          </div>
             <footer>Current Time:  #{Time.now}</footer>
         </body>
       </html>}
